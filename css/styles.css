@@ -505,3 +505,70 @@ form {
   height: 100%;
 }
 
+/*Footer-----------------------*/
+
+footer {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #00B894;
+  gap: 10%;
+  padding: 40px 0;
+}
+
+#info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-family: Poppins;
+  max-width: 70px;
+  text-align: center;
+}
+
+footer a:hover {
+  transform: scale(1.1) !important;
+  transition: .5s;
+}
+
+footer img {
+  width: 30%;
+  height: auto;
+}
+
+footer p {
+  margin: 0;
+}
+
+#line {
+  content: "";
+  width: 90%;
+  height: 1px;
+  background: #FFF;
+}
+
+#social-media {
+  display: flex;
+  gap: 30px;
+}
+
+#rights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: white
+}
+
+#p-t{
+  display: flex;
+  gap: 5px;
+}
