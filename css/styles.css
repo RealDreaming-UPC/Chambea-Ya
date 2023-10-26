@@ -427,4 +427,81 @@ nav {
   right: 0px;
 }
 
+/*Contact------------------------------------------*/
+
+#contact {
+  width: 100%;
+  height: 70vh;
+  min-height: 630px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #2E2E2E;
+  gap: 40px;
+  user-select: none;
+}
+
+#contact h2 {
+  align-self: stretch;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 98%; /* 60.8px */
+  text-align: center;
+  color: #FFF
+}
+
+form {
+  width: 90%;
+  max-width: 400px;
+  margin: 0 30px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 20px
+}
+
+.controller {
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  color: rgb(122, 122, 122);
+  border: none;
+  border-radius: 5px;
+  border-color:gray;
+}
+
+#contact button{
+  width: 90%;
+  max-width: 400px;
+  width: 100%;
+  color: white;
+  padding: 18px;
+  font-size: 18px;
+  background-color: #001F3F;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  font-family: Poppins;
+}
+
+#contact button::before {
+  content: "";
+  background-color: #002955;
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  transition: height .5s ease-in-out;
+}
+
+#contact button:hover::before {
+  height: 100%;
+}
 
